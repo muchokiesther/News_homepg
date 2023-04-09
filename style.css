@@ -1,0 +1,222 @@
+
+
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:25px ;
+    padding: 5.5px;
+}
+
+.menu-bar li{
+    display:inline-block;
+    padding:10px 19px;
+    color: #807e84;
+}
+
+.menu-bar .logo{
+   margin-right: 450px;
+    width:45px ;
+    height:30px;
+   
+}
+
+.main{
+    padding: 5px;
+    margin: 1.3px;
+    margin-left: 39px;
+ 
+}
+.container{
+    display: grid;
+     grid-template-areas: "one one three" "four five three" "six seven eight";
+     grid-template-columns: repeat(4, 25%);
+    grid-gap: 15.5px;
+    margin: auto;
+  max-width: 1200px;
+  margin-left: 200px;
+ 
+    
+
+}
+
+
+.one{
+    grid-area: one;
+   
+}
+
+.one img{
+    width:620px;
+    height:300px;
+}
+
+.two{
+    color: blue;
+    grid-area: two;
+}
+
+.three{
+    background-color:#00001a;
+    color:white;
+    grid-area: three;
+    width:300px;
+    padding: 8%;
+    
+}
+
+.three_one h2{
+    color:#ebad5b;
+}
+
+.three_one{
+    padding-bottom: 12.5px;
+    border-bottom: 1px solid #55556f;
+
+}
+
+.three_two{
+    padding-bottom: 12.5px;
+    border-bottom: 1px solid #55556f;
+}
+
+.three_three{
+    padding-bottom: 15px;
+    
+}
+
+.three h4{
+    font-family: bold;
+    font-size: 20.5px;
+}
+
+.three p{
+    color: #9292a7;
+}
+
+.four{
+    color: black;
+    grid-area: four;
+    
+}
+
+.five{
+    grid-area: five;
+    line-height: 20.5px;
+}
+
+.four h1{
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+
+
+.five p{
+    color: #7f7e81;
+}
+
+.btn{
+    width:150px;
+    height:40px;
+    background-color: #f15d51;
+    color: white;
+    border-style: none;
+}
+
+.six{
+    grid-area: six;
+    display: flex;
+}
+
+.img_six {
+    margin-right: 20px;
+    width: 100px;
+    height: 130px;
+}
+
+.seven{
+    grid-area: seven;
+    display: flex;
+}
+
+.img_seven{
+    margin-right: 20px;
+    width: 100px;
+    height: 130px;
+}
+
+.eight{
+
+    grid-area: eight;
+    display: flex;
+}
+
+.img_eight{
+    margin-right: 20px;
+    width: 100px;
+    height: 130px;
+}
+
+
+.six  h2{
+    color: #c8c5cb;
+}
+
+.seven h2{
+    color: #c8c5cb;
+}
+
+.eight h2{
+    color: #c8c5cb;
+}
+.six p{
+    color: #69686d;
+}
+
+.seven p{
+    color: #69686d;
+}
+
+.eight p{
+    color: #69686d;
+}
+
+.retro{
+    line-height: 1px;
+    
+   
+}
+.retro p{
+    line-height: 15px;
+}
+
+.laptops{
+    line-height: 1px;
+    padding:3.5px;
+}
+
+  .laptops p{
+    line-height: 15px;
+  }
+  
+  .gaming{
+    line-height: 1px;
+    padding:3.5px;
+  }
+
+  .gaming p{
+    line-height: 15px;
+  }
+
+  .retro h2{
+    font-size: 30px;
+  }
+
+  .laptops h2{
+    font-size: 30px;
+  }
+
+  .gaming h2{
+    font-size: 30px;
+  }

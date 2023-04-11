@@ -133,6 +133,7 @@
     margin-right: 20px;
     width: 100px;
     height: 130px;
+    padding-top: 20px;
 }
 
 .seven{
@@ -144,6 +145,7 @@
     margin-right: 20px;
     width: 100px;
     height: 130px;
+    padding-top: 20px;
 }
 
 .eight{
@@ -156,6 +158,7 @@
     margin-right: 20px;
     width: 100px;
     height: 130px;
+    padding-top: 20px;
 }
 
 
@@ -183,7 +186,7 @@
 }
 
 .retro{
-    line-height: 1px;
+    line-height: 15px;
     
    
 }
@@ -192,7 +195,7 @@
 }
 
 .laptops{
-    line-height: 1px;
+    line-height: 15px;
    
 }
 
@@ -201,7 +204,7 @@
   }
   
   .gaming{
-    line-height: 1px;
+    line-height: 15px;
    
   }
 
